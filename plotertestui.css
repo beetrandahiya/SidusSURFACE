@@ -1,142 +1,148 @@
 * {
   outline: none;
 }
- #inputfunc{
-   
-  
+
+#inputfunc {
+
   font-size: 24px;
-  
-    padding:0em 0em;
-    
-    
+  padding: 0em 0em;
+
 }
 
-math-field{
+math-field {
   font-size: 26px;
   margin-left: 1em;
   margin-bottom: 1em;
-  padding:0;
+  padding: 0;
   transform: translateX(-15px) translateY(8px);
 }
 
-.funcnot{
+.funcnot {
   font-family: 'Artifika';
   font-size: 20px;
 }
 
-#plot-container{
+#plot-container {
   display: flex;
   justify-content: center;
   align-items: center;
 
-    position: absolute;
-    top: 75%;
+  position: absolute;
+  top: 75%;
 
 }
 
 
-#workspace{
-  background-color:#fdfcfc;
+#workspace {
+  background-color: #fdfcfc;
   padding-bottom: 0;
   transition: all 100ms;
 }
-#navbarmain{
+
+#navbarmain {
   background: #fdfcfc;
-z-index:99;
- /*box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;*/
+  z-index: 99;
+  /*box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;*/
 
 }
 
-#plotarea{
-  margin:0 0 0 2em;
+#plotarea {
+  margin: 0 0 0 2em;
 
 }
 
-.butn{
+.butn {
   background: transparent;
-  border:rgba(0,150,255,0.5) solid 2px;
-  border-radius:10px;
-  font-size:14px;
-  font-family: Inter,sans-serif;
-  color:rgba(0,150,255,0.5);
+  border: rgba(0, 150, 255, 0.5) solid 2px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  color: rgba(0, 150, 255, 0.5);
   font-weight: 600;
   outline: none;
   cursor: pointer;
   transition: all 100ms ease-in-out;
 }
-.butn:focus{
+
+.butn:focus {
   outline: none;
 }
-.butn:hover{
-  background: rgba(0,150,255,0.3);
+
+.butn:hover {
+  background: rgba(0, 150, 255, 0.3);
   color: #fdfcfc;
-  border: rgba(0,150,255,0.5) solid 3px;
+  border: rgba(0, 150, 255, 0.5) solid 3px;
 }
+
 @media screen and (orientation: portrait) {
-  #plotarea{
-    width:100%;
-    margin:0;
-  
+  #plotarea {
+    width: 100%;
+    margin: 0;
+
   }
-  #controls{
-    height:20%;
+
+  #controls {
+    height: 20%;
   }
 
 
 
 }
+
 .dropdown-toggle::after {
-            content: none;
-        }
+  content: none;
+}
 
-.btn-round{
+.btn-round {
   border-radius: 50%;
-  width:30px;
+  width: 30px;
   height: 30px;
-  padding:0;
-  margin:0.3rem 0.3rem;
-
-}
-.border-light-blue{
-  border: rgba(0,150,255,0.3) solid 2px!important;
-transition: all 100ms ease-in-out;
-background: transparent;
+  padding: 0;
+  margin: 0.3rem 0.3rem;
 
 }
 
-.border-light-blue:focus{
-  border: rgba(0,150,255,0.5) solid 2px!important;
+.border-light-blue {
+  border: rgba(0, 150, 255, 0.3) solid 2px !important;
+  transition: all 100ms ease-in-out;
+  background: transparent;
+
+}
+
+.border-light-blue:focus {
+  border: rgba(0, 150, 255, 0.5) solid 2px !important;
 
 }
 
 /*dark mode classes*/
 
 
-.dark-bg{                           /*to be applied to navbar, controls, workspace, and input fields*/ 
-    background-color: #25232D!important;
-    color: #fdfcfc;
-}
-.bg-dark{
-  background-color: #26242E!important;
+.dark-bg {
+  /*to be applied to navbar, controls, workspace, and input fields*/
+  background-color: #25232D !important;
+  color: #fdfcfc;
 }
 
-.navbar{
+.bg-dark {
+  background-color: #26242E !important;
+}
+
+.navbar {
   transition: all 100ms;
 }
 
-#controls{
+#controls {
   transition: all 100ms;
-  margin:0;
- /*border:rgb(82,154,226) 2px solid;*/
+  margin: 0;
+  /*border:rgb(82,154,226) 2px solid;*/
   background-color: #fdfcfc;
   z-index: 0;
-  border-radius: 10px!important;
-  
+  border-radius: 10px !important;
+
 }
-body{
+
+body {
   background-color: #fdfcfc;
   image-rendering: high-quality;
   transition: all 100ms;
 }
-
-
